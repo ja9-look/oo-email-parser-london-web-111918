@@ -17,6 +17,5 @@ class EmailParser
   def parse
     emails.gsub(",","").split.uniq
   end
-  
 end
 
